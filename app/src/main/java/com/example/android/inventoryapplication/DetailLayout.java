@@ -260,7 +260,6 @@ public class DetailLayout extends AppCompatActivity implements LoaderManager.Loa
             ContentValues values = new ContentValues();
             values.put(ProductContract.products.COLUMN_NAME, name);
             values.put(ProductContract.products.COLUMN_QUANTITY, Integer.parseInt(quantityString));
-            ProductActivity.n_quantity = Integer.parseInt(quantityString);
             values.put(ProductContract.products.COLUMN_PRICE, Integer.parseInt(priceString));
             values.put(ProductContract.products.COLUMN_EMAIL, email);
 
