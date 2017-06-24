@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="order">PLACE ORDER</string>
+    <string name="quantity">0</string>
+    <string name="quantityTitle">Quantity</string>
+    <string name="ProductPrice">Product Price</string>
+    <string name="price">Price</string>
+    <string name="ProductName">Product Name</string>
+    <string name="Empty">Store is Empty</string>
+    <string name="emptyInst">To Add a product click on add new item button</string>
+    <string name="product">Product</string>
+    <string name="dollar">$</string>
+    <string name="deleteProduct">Delete Product</string>
+    <string name="saveProduct">Save Product</string>
+    <string name="addnew">Add new Product</string>
+    <string name="deleteall">Delete All Products</string>
+    <string name="Email">Supplier Email</string>
+    <string name="dummy">Insert Dummy Data</string>
+    <string name="selectImage">Select Image</string>
+    <string name="DeleteItem">Delete</string>
+    <string name="CancelDelete">Cancel</string>
+    <string name="DeleteConfirm">Are you sure to remove this Product</string>
+    <string name="UpdateSuccess">Update successful</string>
+    <string name="ProductNew">New Product inserted</string>
+    <string name="ErrorInsert">error inserting Product</string>
+    <string name="InstructionText">Click on add new items to insert new product or click on insert dummy data</string>
+    <string name="InstructionText2">Click on any item to view or edit its details</string>
+    <string name="instr">*ALL FIELDS ARE MANDATORY.IMAGE IS TO BE PROVIDED FOR EACH PRODUCT.</string>
+    <string name="AddnewProduct">Add a New Product</string>
+    <string name="EditProduct">Edit Details</string>
+    <string name="AllNull">All fields left blank no product inserted</string>
+
+</resources>
+

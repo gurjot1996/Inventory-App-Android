@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:http="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Editor" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="image" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="Linearlayouts" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <style name="editTexts" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    <style name="editfields" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+    <style name="quantityText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="producttext" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_toRightOf">@id/productImage</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+    <style name="quantityfield" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_below">@id/productName</item>
+        <item name="android:layout_toRightOf">@id/productImage</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">5dp</item>
+
+
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="dollarSign" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    <style name="SaleButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_below">@id/quantityShown</item>
+        <item name="android:background">@android:color/holo_green_light</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="quantityShown" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="priceStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/productName</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_toRightOf">@id/PriceTitle</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
+

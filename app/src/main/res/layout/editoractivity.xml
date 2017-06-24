@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instr"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <ImageView
+            android:id="@+id/productPic"
+            style="@style/image"
+            android:layout_width="180dp"
+            android:layout_height="170dp"
+            android:src="@drawable/noimage" />
+
+        <Button
+            android:id="@+id/imageSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/selectImage" />
+
+        <LinearLayout
+            style="@style/Linearlayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/editTexts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ProductName" />
+
+            <EditText
+                android:id="@+id/nameEntered"
+                style="@style/editfields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Linearlayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/editTexts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ProductPrice" />
+
+            <EditText
+                android:id="@+id/priceEntered"
+                style="@style/editfields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Linearlayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/editTexts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Email" />
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/editfields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/editTexts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/quantityTitle" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp">
+
+            <Button
+                android:id="@+id/minusQuantity"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/quantityEntered"
+                style="@style/quantityText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantity" />
+
+            <Button
+                android:id="@+id/plusQuantity"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="+" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/place_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="15dp"
+                android:text="@string/order" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
